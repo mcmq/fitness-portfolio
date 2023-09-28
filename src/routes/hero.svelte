@@ -9,7 +9,7 @@
 			WORKOUT <br />WITH ME
 		</h1>
 		<div class="w-56 sm:w-64 md:w-72 lg:w-96 absolute right-60 top-56">
-			<img src={HeroImage} alt="Hero" class="w-full transition-all" />
+			<img src={HeroImage} alt="Hero" class="w-56 sm:w-64 md:w-72 lg:w-96 transition-all" />
 			<div
 				class="bg-[#ef8964] h-min flex flex-col gap-2 absolute -top-12 -right-20 md:-right-20 p-3 px-6 rounded-lg text-white"
 			>
