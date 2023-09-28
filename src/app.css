@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Sf Pro Display Regular';
+  src: url(./fonts/SfProDisplayRegular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Sf Pro Display Medium';
+  src: url(./fonts/SfProDisplayMedium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Sf Pro Display Bold';
+  src: url(./fonts/SfProDisplayBold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Sf Pro Display Black';
+  src: url(./fonts/SfProDisplayBlack.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Sf Pro Display Heavy';
+  src: url(./fonts/SfProDisplayHeavy.ttf);
+  font-weight: 900;
+}
