@@ -20,6 +20,8 @@ export default {
         'sf-bold': ['"Sf Pro Display Bold"', ...defaultTheme.fontFamily.sans],
         'sf-black': ['"Sf Pro Display Black"', ...defaultTheme.fontFamily.sans],
         'sf-heavy': ['"Sf Pro Display Heavy"', ...defaultTheme.fontFamily.sans],
+        'display': ['Oswald', ...defaultTheme.fontFamily.sans],
+        'body': ['"Open Sans"', ...defaultTheme.fontFamily.sans],
       },
     }
   },
