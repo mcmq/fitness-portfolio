@@ -14,7 +14,7 @@
 		<h3>
 			This website is built by <a
 				class="font-semibold text-blue-400"
-				href="https:linktr.ee/thekaasim">Kaasim Abdallah</a
+				href="https//:linktr.ee/thekaasim">Kaasim Abdallah</a
 			>
 		</h3>
 		<h3>
