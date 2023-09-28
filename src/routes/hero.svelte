@@ -1,6 +1,6 @@
 <script>
 	import { Footprints, Play } from 'lucide-svelte';
-	import HeroImage from '$lib/assets/images/hero-image.png?w=112&webp;png';
+	import HeroImage from '$lib/assets/images/hero-image.png?w=200&webp;png';
 </script>
 
 <section>

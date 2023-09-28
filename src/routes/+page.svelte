@@ -1,8 +1,8 @@
 <script>
 	import { ArrowRight } from 'lucide-svelte';
 	import Hero from './hero.svelte';
-	import Photo1 from '$lib/assets/images/photo-1.png?w=112&webp;png';
-	import Photo2 from '$lib/assets/images/photo-2.png?w=112&webp;png';
+	import Photo1 from '$lib/assets/images/photo-1.png?w=200&webp;png';
+	import Photo2 from '$lib/assets/images/photo-2.png?w=200&webp;png';
 </script>
 
 <svelte:head>
