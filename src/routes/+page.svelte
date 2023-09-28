@@ -1,11 +1,19 @@
 <script>
-	import { ArrowLeft, ArrowRight } from 'lucide-svelte';
+	import { ArrowRight } from 'lucide-svelte';
 	import Hero from './hero.svelte';
+	import Photo1 from '$lib/assets/images/photo-1.png?w=112&webp;png';
+	import Photo2 from '$lib/assets/images/photo-2.png?w=112&webp;png';
 </script>
 
-<section>
-	<Hero />
-</section>
+<svelte:head>
+	<title>A fitness portfolio</title>
+	<meta
+		name="description"
+		content="I have built this fitness portfolio to show my skills on web development and add some work to my upwork profile and attract some clients. This website has 100% perfomance and good SEO. The designed is from Figma and it belongs to Calib."
+	/>
+</svelte:head>
+
+<Hero />
 <section class="container px-36 py-20 text-white space-y-10">
 	<h3 class="text-3xl font-medium">Not sure where to start?</h3>
 	<p>Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
@@ -43,10 +51,14 @@
 		</p>
 		<a href="/#" class="mt-5 inline-flex gap-3">See More <ArrowRight /></a>
 	</div>
-	<img src="/images/photo-1.png" alt="" class="w-full" />
+	<img src={Photo1} alt="Workout home for free" class="w-full" />
 </section>
 <section class="container grid grid-cols-2 items-center gap-10 py-20 px-36 text-white">
-	<img src="/images/photo-2.png" alt="" class="w-full" />
+	<img
+		src={Photo2}
+		alt="Get more with low-cost training programs and advanced features"
+		class="w-full"
+	/>
 	<div class="space-y-6">
 		<h2 class="text-3xl font-semibold">
 			Get more with low-cost training programs and advanced features.
