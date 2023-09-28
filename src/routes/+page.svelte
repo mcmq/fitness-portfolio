@@ -51,13 +51,15 @@
 		</p>
 		<a href="/#" class="mt-5 inline-flex gap-3">See More <ArrowRight /></a>
 	</div>
-	<img src={Photo1} alt="Workout home for free" class="w-full" />
+	<img src={Photo1} alt="Workout home for free" class="w-full" width={224} height={224} />
 </section>
 <section class="container grid grid-cols-2 items-center gap-10 py-20 px-36 text-white">
 	<img
 		src={Photo2}
 		alt="Get more with low-cost training programs and advanced features"
 		class="w-full"
+		width={224}
+		height={224}
 	/>
 	<div class="space-y-6">
 		<h2 class="text-3xl font-semibold">
